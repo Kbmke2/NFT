@@ -1,0 +1,33 @@
+            body {
+                background-color: rgb(5, 16, 51);
+                display: flex;
+            }
+            
+            main {
+                width: 200px;
+                padding: 10px;
+                align-content: center;
+                margin: auto;
+                background-color: rgb(77, 62, 146);
+                border-radius: 10px;
+            }
+            
+            #pic {
+                align-items: center;
+                justify-content: center;
+                color: hsl(216, 15%, 58%);
+                border-radius: 5px;
+                font-size: 18px;
+                border-radius: 10px;
+            }
+            
+            #name {
+                color: azure;
+            }
+            
+            .time img,
+            .ethereum p,
+            .time p,
+            .creator {
+                display: inline-block;
+            }
