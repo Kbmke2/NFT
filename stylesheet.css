@@ -1,0 +1,134 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@300;400;600&display=swap");
+
+/* PAGE RESET */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --para: hsl(215, 51%, 70%);
+  --time: hsl(215, 51%, 70%);
+  --eth: hsl(178, 100%, 50%);
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --header: hsl(0, 0%, 100%);
+  --al: hsl(178, 100%, 50%);
+  font-size: 18px;
+}
+
+body {
+  background-color: var(--mainBG);
+  width: 100%;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  width: 330px;
+  background-color: var(--cardBG);
+  margin: 8rem auto;
+  border-radius: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.image-container {
+  width: 290px;
+  margin: 0.5rem auto;
+}
+
+#nft {
+  margin: 1rem auto;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.info {
+  padding: 0 1.2rem;
+}
+
+.header {
+  color: var(--header);
+}
+
+.link {
+  color: var(--header);
+  text-decoration: none;
+}
+
+.about {
+  color: var(--para);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.amntdays {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.amount {
+  align-items: center;
+  display: flex;
+}
+
+#crypto {
+  float: left;
+}
+
+.eth {
+  color: var(--eth);
+  padding-left: 0.5rem;
+  display: flex;
+}
+.days {
+  align-items: center;
+  display: flex;
+}
+
+#clock {
+  float: left;
+}
+
+.time {
+  color: var(--time);
+  padding-left: 0.5rem;
+  display: flex;
+}
+
+.creator {
+  border-top: 2px solid var(--line);
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#jw {
+  width: 2rem;
+  border: 1px solid var(--header);
+  border-radius: 50%;
+}
+.name {
+  color: var(--para);
+  margin-left: 0.5rem;
+}
+
+.active-link:hover {
+  color: var(--al);
+}
+
+.active-img:hover {
+  background-image: url(/images/icon-view.svg);
+  background-color: var(--al);
+}
+
+.attribution {
+  text-align: center;
+}
